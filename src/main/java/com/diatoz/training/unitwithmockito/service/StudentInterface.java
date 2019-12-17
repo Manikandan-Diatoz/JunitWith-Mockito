@@ -1,9 +1,9 @@
-package com.diatoz.trainer.UnitWithMockito.service;
+package com.diatoz.training.unitwithmockito.service;
 
 import java.util.Set;
 
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetails;
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetailsDto;
+import com.diatoz.training.unitwithmockito.domain.StudentDetails;
+import com.diatoz.training.unitwithmockito.domain.StudentDetailsDto;
 
 
 public interface StudentInterface{

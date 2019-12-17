@@ -1,4 +1,4 @@
-package com.diatoz.trainer.UnitWithMockito;
+package com.diatoz.training.unitwithmockito;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

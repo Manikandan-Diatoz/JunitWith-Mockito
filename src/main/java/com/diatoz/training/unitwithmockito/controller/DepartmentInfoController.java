@@ -1,4 +1,4 @@
-package com.diatoz.trainer.UnitWithMockito.controller;
+package com.diatoz.training.unitwithmockito.controller;
 
 import java.util.List;
 import java.util.Set;
@@ -12,11 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-import com.diatoz.trainer.UnitWithMockito.domain.Department;
-import com.diatoz.trainer.UnitWithMockito.domain.DepartmentDto;
-import com.diatoz.trainer.UnitWithMockito.repostiory.DepartmentInfoRepo;
-import com.diatoz.trainer.UnitWithMockito.service.DepartmentInfo;
+import com.diatoz.training.unitwithmockito.domain.Department;
+import com.diatoz.training.unitwithmockito.domain.DepartmentDto;
+import com.diatoz.training.unitwithmockito.repostiory.DepartmentInfoRepo;
+import com.diatoz.training.unitwithmockito.service.DepartmentInfo;
 
 @RestController
 @RequestMapping("/departmentInfo")

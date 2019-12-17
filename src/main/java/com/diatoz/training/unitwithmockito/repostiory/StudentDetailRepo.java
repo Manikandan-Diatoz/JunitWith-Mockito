@@ -1,9 +1,9 @@
-package com.diatoz.trainer.UnitWithMockito.repostiory;
+package com.diatoz.training.unitwithmockito.repostiory;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetails;
+import com.diatoz.training.unitwithmockito.domain.StudentDetails;
 
 
 @Repository

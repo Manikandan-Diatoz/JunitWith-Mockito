@@ -1,4 +1,4 @@
-package com.diatoz.trainer.UnitWithMockito.controller;
+package com.diatoz.training.unitwithmockito.controller;
 
 import java.util.Set;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetails;
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetailsDto;
-import com.diatoz.trainer.UnitWithMockito.service.StudentInterface;
+import com.diatoz.training.unitwithmockito.domain.StudentDetails;
+import com.diatoz.training.unitwithmockito.domain.StudentDetailsDto;
+import com.diatoz.training.unitwithmockito.service.StudentInterface;
 
 @RestController
 @RequestMapping("/student")

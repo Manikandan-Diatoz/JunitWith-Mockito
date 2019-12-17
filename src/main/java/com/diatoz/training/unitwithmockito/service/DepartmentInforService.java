@@ -1,12 +1,13 @@
-package com.diatoz.trainer.UnitWithMockito.service;
+package com.diatoz.training.unitwithmockito.service;
 
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.diatoz.trainer.UnitWithMockito.domain.Department;
-import com.diatoz.trainer.UnitWithMockito.domain.DepartmentDto;
-import com.diatoz.trainer.UnitWithMockito.repostiory.DepartmentInfoRepo;
+
+import com.diatoz.training.unitwithmockito.domain.Department;
+import com.diatoz.training.unitwithmockito.domain.DepartmentDto;
+import com.diatoz.training.unitwithmockito.repostiory.DepartmentInfoRepo;
 
 @Service
 public class DepartmentInforService implements DepartmentInfo {

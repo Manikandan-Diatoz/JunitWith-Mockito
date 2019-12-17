@@ -1,4 +1,4 @@
-package com.diatoz.trainer.UnitWithMockito.domain;
+package com.diatoz.training.unitwithmockito.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,14 +8,17 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.Data;
+
 @Entity
-@Table(name = "student_details")
+@Table(name="department")
 @Data
-public class StudentDetails {
+public class Department {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "student_rollno")
-	private int studentRollno;
-	@Column(name = "student_name")
-	private String studentName;
+	@Column(name = "department_id")
+	private int departmentId;
+	@Column(name = "department_name")
+	private String departmentName;
+
 }

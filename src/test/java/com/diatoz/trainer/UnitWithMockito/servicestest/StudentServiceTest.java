@@ -17,11 +17,12 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetails;
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetailsDto;
-import com.diatoz.trainer.UnitWithMockito.repostiory.StudentDetailRepo;
-import com.diatoz.trainer.UnitWithMockito.service.StudentDetailsService;
-@SpringBootTest
+
+import com.diatoz.training.unitwithmockito.domain.StudentDetails;
+import com.diatoz.training.unitwithmockito.domain.StudentDetailsDto;
+import com.diatoz.training.unitwithmockito.repostiory.StudentDetailRepo;
+import com.diatoz.training.unitwithmockito.service.StudentDetailsService;
+
 @ExtendWith(SpringExtension.class)
 public class StudentServiceTest {
 	@Mock

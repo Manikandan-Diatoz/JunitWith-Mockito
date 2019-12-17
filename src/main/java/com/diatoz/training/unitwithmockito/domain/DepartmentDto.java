@@ -1,4 +1,4 @@
-package com.diatoz.trainer.UnitWithMockito.domain;
+package com.diatoz.training.unitwithmockito.domain;
 
 import java.io.Serializable;
 

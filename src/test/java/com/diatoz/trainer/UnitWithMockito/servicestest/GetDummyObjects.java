@@ -1,9 +1,9 @@
 package com.diatoz.trainer.UnitWithMockito.servicestest;
 
-import com.diatoz.trainer.UnitWithMockito.domain.Department;
-import com.diatoz.trainer.UnitWithMockito.domain.DepartmentDto;
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetails;
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetailsDto;
+import com.diatoz.training.unitwithmockito.domain.Department;
+import com.diatoz.training.unitwithmockito.domain.DepartmentDto;
+import com.diatoz.training.unitwithmockito.domain.StudentDetails;
+import com.diatoz.training.unitwithmockito.domain.StudentDetailsDto;
 public class GetDummyObjects {
 	public static Department getDummyDepartment() {
 		Department department = new Department();

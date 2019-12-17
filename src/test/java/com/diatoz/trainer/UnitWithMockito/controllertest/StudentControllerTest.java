@@ -21,8 +21,7 @@ import org.springframework.test.web.servlet.MockMvcBuilder;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-
-import com.diatoz.trainer.UnitWithMockito.domain.StudentDetailsDto;
+import com.diatoz.training.unitwithmockito.domain.StudentDetailsDto;
 import com.google.gson.Gson;
 
 @SpringBootTest
